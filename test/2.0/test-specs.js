@@ -29,7 +29,7 @@
 var _ = require('lodash');
 var assert = require('assert');
 var async = require('async');
-var JsonRefs = require('json-refs');
+var JsonRefs = require('json-refs-fix-issue-when-object-has-a-length-property');
 var spec = (typeof window === 'undefined' ? require('../../lib/specs') : SwaggerTools.specs).v2_0; // jshint ignore:line
 var petStoreJson = _.cloneDeep(require('../../samples/2.0/petstore.json'));
 

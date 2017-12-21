@@ -1,6 +1,6 @@
 {
-  "name": "swagger-tools",
-  "version": "0.10.3",
+  "name": "swagger-tools-fix-issue-when-object-has-a-length-property",
+  "version": "0.10.4",
   "description": "Various tools for using and integrating with Swagger.",
   "main": "index.js",
   "scripts": {
@@ -71,7 +71,7 @@
     "commander": "~2.11.0",
     "debug": "^3.1.0",
     "js-yaml": "^3.3.1",
-    "json-refs": "^3.0.1",
+    "json-refs-fix-issue-when-object-has-a-length-property": "^3.0.2",
     "lodash": "^4.17.4",
     "multer": "^1.1.0",
     "parseurl": "^1.3.0",

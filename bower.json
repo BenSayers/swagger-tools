@@ -1,5 +1,5 @@
 {
-  "name": "swagger-tools",
+  "name": "swagger-tools-fix-issue-when-object-has-a-length-property",
   "main": "browser/swagger-tools.js",
   "version": "0.10.3",
   "homepage": "https://github.com/apigee-127/swagger-tools",
@@ -32,7 +32,7 @@
   "dependencies": {
     "async": "~2.5.0",
     "js-yaml": "~3.10.0",
-    "json-refs": "~3.0.1",
+    "json-refs-fix-issue-when-object-has-a-length-property": "~3.0.2",
     "lodash": "^4.17.4",
     "spark-md5": "~3.0.0",
     "swagger-converter": "~0.1.7",

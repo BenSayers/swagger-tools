@@ -58,7 +58,7 @@ gulp.task('browserify', function () {
           exposify.config = {
             'async': 'async',
             'debug': 'debug',
-            'json-refs': 'JsonRefs',
+            'json-refs-fix-issue-when-object-has-a-length-property': 'JsonRefs',
             'js-yaml': 'jsyaml',
             'lodash': '_',
             'spark-md5': 'SparkMD5',
